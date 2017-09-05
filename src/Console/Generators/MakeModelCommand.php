@@ -36,7 +36,7 @@ class MakeModelCommand extends GeneratorCommand
      *
      * @return void
      */
-    public function fire()
+    public function handle()
     {
         if (parent::fire() !== false) {
             if ($this->option('migration')) {
